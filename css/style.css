@@ -15,6 +15,7 @@
     align-items: center;
 }
 
+
 .header_form {
     display: flex;
     align-items: center;
@@ -121,8 +122,8 @@
 
 .section {
     padding-top: 64px;
-    width: 1920px;
-    height: 1080px;
+    width: 1440px;
+    height: 1024px;
     flex-shrink: 0;
     background-image: url(../imgs/cover\ image.png);
     background-position: center;

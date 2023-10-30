@@ -1,0 +1,54 @@
+@media (max-width:1100px){
+    .header_top{
+        width: 90px;
+        margin-left: 25px;
+        margin-right: 240px;
+    }
+
+    .form1{
+        margin-right: 200px;
+    }
+    .form_input{
+        padding-right: 250px;
+    }
+    .log{
+        width: 120px;
+        margin-right: 65px;
+    }
+    .header_button{
+        width: 75px;
+    }
+    
+    /* header_bottom  */
+    .header_bottom {
+    padding: 10px 200px;
+    }
+    
+    .fa-bars{
+        display: none;
+    }
+    .header_bottom_glass{
+        display: none;
+    }
+    .header_ul{
+        width: 700px;
+        gap: 80px;
+    }
+    /* section  */
+    .section_div{
+        width: 720px;
+        padding: 40px 180px;
+    }
+    .section_select1{
+        width: 400px;
+        padding-left: 180px;
+    }
+    /* footer  */
+    footer{
+        padding: 40px 60px;
+        gap: 270px;
+    }
+    .social_icons{
+        gap: 20px;
+    }
+    }
