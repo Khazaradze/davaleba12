@@ -69,6 +69,7 @@
     background-color: #F30AEA;
     border-radius: 8px;
 }
+
 /* header bottom */
 
 .header_bottom {
@@ -102,6 +103,7 @@
     color: white;
     font-size: 20px;
 }
+
 .fa-user {
     display: none;
 }
@@ -114,3 +116,234 @@
     display: none;
 }
 
+/* section */
+.section {
+    padding-top: 64px;
+    width: 1920px;
+    height: 1080px;
+    flex-shrink: 0;
+    background-image: url(../imgs/cover\ image.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.section_div{
+    display: flex;
+    width: 864px;
+    height: 876px;
+    padding: 48px 200px;
+    margin: auto;
+    flex-direction: column;
+    border-radius: 20px;
+    border: 1px solid rgba(176, 82, 181, 0.79);
+    background: rgba(28, 19, 37, 0.80);
+    backdrop-filter: blur(5px);
+}
+
+.section_h {
+    color: #FFF;
+    text-shadow: 2px 4px 4px rgba(249, 12, 239, 0.71);
+    font-size: 32px;
+    margin: auto;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 4px;
+    padding-bottom: 80px;
+}
+
+.main_form {
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+}
+
+.div_form1 {
+    display: flex;
+    gap: 24px;
+}
+
+.NAME {
+    display: flex;
+    width: 220px;
+    padding: 11px 149px 11px 22px;
+    align-items: center;
+    border-radius: 8px;
+    border: 1px solid #B052B5;
+    color: rgba(158, 141, 158, 0.71);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    background-color: transparent;
+}
+
+.EMAIL {
+    color: rgba(158, 141, 158, 0.71);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    display: flex;
+    width: 220px;
+    padding: 11px 155px 11px 22px;
+    align-items: center;
+    border-radius: 8px;
+    border: 1px solid #B052B5;
+    background-color: transparent;
+}
+
+.section_label1 {
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    padding-top: 24px;
+    padding-bottom: 8px;
+}
+
+.section_select1 {
+    display: flex;
+    width: 464px;
+    height: 48px;
+    padding: 12px 22px 12px 218px;
+    justify-content: flex-end;
+    align-items: center;
+    border-radius: 8px;
+    border: 1px solid #B052B5;
+    background-color: transparent;
+    color: #fff;
+}
+
+.option_yes {
+    width: 30px;
+    height: 10px;
+    color: #000;
+}
+
+.option_no {
+    width: 30px;
+    height: 10px;
+    color: #000;
+}
+
+.section_label2 {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    padding-top: 24px;
+    padding-bottom: 16px;
+}
+
+.div_form2 {
+    display: flex;
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+.section_input1 {
+    appearance: none;
+    width: 24px;
+    height: 24px;
+    stroke-width: 2px;
+    border: 3px solid rgba(243, 10, 234, 0.71);
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section_input1:checked::before {
+    content: "\f00c";
+    font-family: "Font Awesome 6 free";
+    font-weight: 900;
+    color: rgba(243, 10, 234, 0.71);
+}
+
+.section_label3 {
+    display: flex;
+    color: #B052B5;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.section_label4 {
+    color: #FFF;
+    padding-top: 26px;
+    padding-bottom: 8px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+textarea {
+    resize: none;
+    display: flex;
+    width: 464px;
+    height: 112px;
+    padding: 11px 370px 75px 22px;
+    align-items: center;
+    border-radius: 8px;
+    border: 1px solid #B052B5;
+    background-color: transparent;
+}
+
+.div_form3 {
+    display: inline-flex;
+    padding-right: 0px;
+    align-items: flex-start;
+    gap: 8px;
+    margin-top: 24px;
+    margin-bottom: 40px;
+}
+
+.section_input2 {
+    appearance: none;
+    width: 24px;
+    height: 24px;
+    stroke-width: 2px;
+    border: 2px solid rgba(243, 10, 234, 0.71);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section_input2:checked::before {
+    content: "\f00c";
+    font-family: "Font Awesome 6 free";
+    font-weight: 900;
+    color: rgba(243, 10, 234, 0.71);
+}
+
+.newsletter {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.main_button {
+    display: flex;
+    width: 464px;
+    padding: 19px 0px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    background: #F30AEA;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+}
